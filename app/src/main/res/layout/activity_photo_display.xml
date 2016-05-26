@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.yiyun.PhotoDisplayActivity">
+
+    <com.example.picturebrower.Gallery.GalleryViewPager
+        android:id="@+id/pd_view"
+        android:background="#191919"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
